@@ -108,10 +108,10 @@ GamerImagen.Position = UDim2.new(0.0118845496, 0, 0.0787393153, 0)
 GamerImagen.Size = UDim2.new(0, 466, 0, 240)
 GamerImagen.Image = "http://www.roblox.com/asset/?id=11228480415"
 GamerImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/soft"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 end)
 
 SpotifyImagen.Name = "SpotifyImagen"
@@ -121,11 +121,11 @@ SpotifyImagen.Position = UDim2.new(0.596310914, 0, 0.0787393153, 0)
 SpotifyImagen.Size = UDim2.new(0, 466, 0, 240)
 SpotifyImagen.Image = "http://www.roblox.com/asset/?id=11228495163"
 SpotifyImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/Spotify"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
-end)
+game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
+	end)
 
 TextLabel.Parent = page1
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -206,10 +206,10 @@ ArceusXImagen.Position = UDim2.new(0.0118845496, 0, 0.0787393153, 0)
 ArceusXImagen.Size = UDim2.new(0, 466, 0, 240)
 ArceusXImagen.Image = "http://www.roblox.com/asset/?id=11228473620"
 ArceusXImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/arceusx"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 end)
 
 SentinelV2Imagen.Name = "SentinelV2Imagen"
@@ -219,10 +219,10 @@ SentinelV2Imagen.Position = UDim2.new(0.596310914, 0, 0.0787393153, 0)
 SentinelV2Imagen.Size = UDim2.new(0, 466, 0, 240)
 SentinelV2Imagen.Image = "http://www.roblox.com/asset/?id=11228898217"
 SentinelV2Imagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/Sentinel2"))()
 game.CoreGui["Trip Hub"]:Destroy()
 select:Destroy()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 end)
 
 TextLabel_3.Parent = page2
@@ -304,11 +304,11 @@ DiscordImagen.Position = UDim2.new(0.0118845496, 0, 0.0787393153, 0)
 DiscordImagen.Size = UDim2.new(0, 466, 0, 240)
 DiscordImagen.Image = "http://www.roblox.com/asset/?id=11228986177"
 DiscordImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/Discord"))()
 game.CoreGui["Trip Hub"]:Destroy()
-	select:Destroy()
-end)
+select:Destroy()
+game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
+	end)
 
 DarkV2Imagen.Name = "DarkV2Imagen"
 DarkV2Imagen.Parent = page3
@@ -317,10 +317,10 @@ DarkV2Imagen.Position = UDim2.new(0.596310914, 0, 0.0787393153, 0)
 DarkV2Imagen.Size = UDim2.new(0, 466, 0, 240)
 DarkV2Imagen.Image = "http://www.roblox.com/asset/?id=11228963174"
 DarkV2Imagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/Dark2"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 end)
 
 TextLabel_5.Parent = page3
@@ -403,11 +403,11 @@ TwichImagen.Position = UDim2.new(0.0118845496, 0, 0.0787393153, 0)
 TwichImagen.Size = UDim2.new(0, 466, 0, 240)
 TwichImagen.Image = "http://www.roblox.com/asset/?id=11229013553"
 TwichImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/twitch"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
-end)
+game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
+	end)
 
 SynapseXImagen.Name = "SynapseXImagen"
 SynapseXImagen.Parent = page4
@@ -416,11 +416,11 @@ SynapseXImagen.Position = UDim2.new(0.596310914, 0, 0.0787393153, 0)
 SynapseXImagen.Size = UDim2.new(0, 466, 0, 240)
 SynapseXImagen.Image = "http://www.roblox.com/asset/?id=11229041113"
 SynapseXImagen.MouseButton1Down:Connect(function()
-		game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/themes/main/synapsex"))()
 game.CoreGui["Trip Hub"]:Destroy()
 	select:Destroy()
-end)
+game.Players.LocalPlayer.PlayerGui.ScreenGui:Destroy()
+	end)
 
 TextLabel_7.Parent = page4
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
