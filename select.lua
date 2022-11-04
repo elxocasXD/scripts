@@ -1,4 +1,12 @@
-local select = Instance.new("ScreenGui")
+local userkey = "https://raw.githubusercontent.com/GamerEmilianoFF/list/main/buyers"
+local blacklist = "https://raw.githubusercontent.com/GamerEmilianoFF/list/main/blacklist"
+local key = game:HttpGet(userkey, true)
+local banned = game:HttpGet(blacklist, true)
+local plr = game.Players.LocalPlayer
+
+if string.find(key, plr.Name) then 
+
+	local select = Instance.new("ScreenGui")
 local bajo1 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local page1But = Instance.new("TextButton")
@@ -462,3 +470,13 @@ lineTop_4.Size = UDim2.new(0, 1178, 0, 21)
 
 UICorner_17.CornerRadius = UDim.new(0, 12)
 UICorner_17.Parent = lineTop_4
+	
+else
+    plr:Kick("You need to buy Trip Hub Premium")
+wait(4)
+    loadstring(game:HttpGet("https://pastebin.com/raw/hAaXGTdq",true))()
+end
+
+
+
+
