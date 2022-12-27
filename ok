@@ -1,0 +1,53 @@
+local trashScreen = Instance.new("ScreenGui")
+local trashgui = Instance.new("Frame")
+local button = Instance.new("TextButton")
+
+trashScreen.Name = "trashScreen"
+trashScreen.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+trashScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+trashScreen.ResetOnSpawn = false 
+
+trashgui.Name = "trashgui"
+trashgui.Parent = trashScreen
+trashgui.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+trashgui.Position = UDim2.new(0.58179009, 0, 0.133828998, 0)
+trashgui.Size = UDim2.new(0, 228, 0, 140)
+trashgui.Active = true
+trashgui.Draggable = true
+
+button.Name = "button"
+button.Parent = trashgui
+button.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button.Position = UDim2.new(0.127192974, 0, 0.235714301, 0)
+button.Size = UDim2.new(0, 169, 0, 73)
+button.Font = Enum.Font.SourceSans
+button.Text = "click me for trash"
+button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextScaled = true
+button.TextSize = 14.000
+button.TextWrapped = true
+button.MouseButton1Down:Connect(function()
+
+local WW = {	
+	'ur bad',
+		' Lucky Shots',
+		' Buy yourself an aim ☠️☠️☠️☠️',
+		'ez', 
+		'do you like to eat fat 💀',
+                'runner',
+                'Scared kid 🤡',
+		' You are my pet 🤡',
+		'how did u miss that many shots',
+         'son',
+        "my grandma has more skill than you",
+        "AIRSHOTED LOL💀",
+        "imagine being you right now",
+        "why do you even try 🤡🤡🤡🤡🤡",
+        "I didn't think you were this bad ☠️☠️☠️☠️☠️☠️☠️",
+}
+
+local player = game.Players.LocalPlayer
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+
+	event:FireServer(WW[math.random(#WW)], "All")
+	end)
