@@ -7,7 +7,7 @@ getgenv().version = "3.5"
 
 --Trip Hub Status 
 
-getgenv().Trip_Hub_Status = false
+getgenv().Trip_Hub_Status = true
 
 
 --Information
