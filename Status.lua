@@ -8,3 +8,8 @@ getgenv().version = "3.5"
 --Trip Hub Status 
 
 getgenv().Trip_Hub_Status = true
+
+
+--Information
+
+getgenv().Text_Information = "Wait for an update from Trip Hub! We are doing big things"
