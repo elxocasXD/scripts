@@ -67,3 +67,7 @@ Text.TextColor3 = Color3.fromRGB(255, 255, 255)
 Text.TextScaled = true
 Text.TextSize = 14.000
 Text.TextWrapped = true
+
+wait(8)
+
+Info:Destroy()
