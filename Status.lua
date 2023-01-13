@@ -1,6 +1,6 @@
 --Status Gui
 
-getgenv().status = "Works"
+getgenv().status = "Dont Works"
 getgenv().Color = Color3.fromRGB(255, 0, 0) --green / Color3.fromRGB(255, 0, 0) red
 getgenv().version = "3.6"
 
