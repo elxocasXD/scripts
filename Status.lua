@@ -13,3 +13,7 @@ getgenv().Trip_Hub_Status = true
 --Information
 
 getgenv().Text_Information = "Wait for an update from Trip Hub! We are doing big things"
+
+--Library
+getgenv().UI_Library_Premium_Enable = true
+getgenv().UI_Library_Free_Enable = true
