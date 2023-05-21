@@ -1,1 +1,1 @@
-getgenv().Trip_Hub_Theme = "Water"
+getgenv().Trip_Hub_Theme = "Spotify"
