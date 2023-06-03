@@ -1,1 +1,1 @@
-getgenv().Trip_Hub_Theme = "Beautifull"
+getgenv().Trip_Hub_Theme = "Purple"
